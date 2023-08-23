@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class App {
     //Para todos métodos tiverem acesso, declaro como variável de classe
     private static String userName;
 
@@ -12,7 +12,6 @@ public class Main {
         //Solicitar o nome do hotel
         System.out.println("Digite o nome do hotel:");
         String hotelName = scanner.nextLine();
-
 
         //%s -> irá ser substituída pela variável hotelName.
         String message = String.format("O nome do hotel é %s.",
